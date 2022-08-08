@@ -1,0 +1,18 @@
+.primary-navigation {
+  padding-top: 30px;
+  .menu {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 40px;
+    a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $black;
+    }
+    .is-active {
+      color: $red;
+    }
+  }
+}

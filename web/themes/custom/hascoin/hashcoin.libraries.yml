@@ -1,0 +1,18 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      assets/css/style.css: {}
+      assets/css/slick-theme.css: {}
+      assets/css/slick.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css:
+        { type: external, minified: true }
+
+global-scripts:
+  version: VERSION
+  js:
+    assets/js/bundle.js: {}
+    assets/js/slick.min.js: {}
+
+  dependencies:
+    - core/jquery

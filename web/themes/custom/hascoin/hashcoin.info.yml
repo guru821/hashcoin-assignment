@@ -1,0 +1,18 @@
+name: Hashcoin
+type: theme
+description: This is a hashcoin sub theme of Classy
+core_version_requirement: ^8 || ^9 || ^10
+# Defines the base theme
+base theme: classy
+# Defines libraries group in which we can add css/js.
+libraries:
+  - hashcoin/global-styling
+  - hashcoin/global-scripts
+# Regions, quote the names
+regions:
+  header: "Header"
+  navigation: "Navigation"
+  hero_slider: "Hero slider"
+  content: "Content"
+  footer: "Footer"
+  copyright: "Copyright"
