@@ -1,0 +1,20 @@
+hashcoin.small:
+  label: small
+  mediaQuery: "all and (max-width: 767px)"
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+hashcoin.medium:
+  label: medium
+  mediaQuery: "all and (min-width: 768px)"
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
+hashcoin.large:
+  label: large
+  mediaQuery: "all and (min-width: 1200px)"
+  weight: 2
+  multipliers:
+    - 1x

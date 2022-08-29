@@ -1,0 +1,65 @@
+.block-views-blocktestimonial-carousel-block-1 {
+  padding: $f118 0;
+  .flexslider {
+    text-align: center;
+    border: none;
+    margin: 0;
+    .testimonial-carousel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      @media (max-width: map-get($breakpoints, md) - 1) {
+        width: 100%;
+      }
+    }
+    figure {
+      margin: 0;
+      position: relative;
+      img {
+        width: 300px;
+        height: 300px;
+      }
+      .fontawesome-icons {
+        background: $yellow;
+        display: inline-block;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 4px;
+        right: 0;
+        .fontawesome-icon {
+          display: grid;
+          place-items: center;
+          height: 100%;
+          width: 100%;
+          svg {
+            color: $white;
+            font-size: $f30;
+          }
+        }
+      }
+    }
+    h6 {
+      padding: $f30 0 $f14 0;
+    }
+    h2 {
+      padding: 0 0 $f30 0;
+    }
+    p {
+      font-style: italic;
+    }
+    .flex-control-paging {
+      li {
+        a {
+          width: 7px;
+          height: 7px;
+        }
+        .flex-active {
+          background: $red;
+        }
+      }
+    }
+  }
+}

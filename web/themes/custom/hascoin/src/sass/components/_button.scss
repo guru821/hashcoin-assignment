@@ -1,0 +1,25 @@
+.primary-btn {
+  a {
+    border: 1px solid #be3554;
+    background: #be3554;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 16px 60px;
+  }
+}
+
+.form-actions {
+  margin: 0;
+  .webform-button--submit {
+    padding: 16px 52px;
+    border-radius: 30px;
+    border: 1px solid $red;
+    background: $red;
+    color: $white;
+    outline: none;
+    box-shadow: none;
+  }
+}

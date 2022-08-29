@@ -1,0 +1,13 @@
+.logo-image-secton {
+  padding: 118px 0;
+  .slick-slide {
+    img {
+      opacity: 0.4;
+    }
+  }
+  .slick-center {
+    img {
+      opacity: 1;
+    }
+  }
+}

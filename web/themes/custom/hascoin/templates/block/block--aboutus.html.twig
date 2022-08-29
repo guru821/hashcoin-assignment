@@ -1,0 +1,25 @@
+<section class="about-us-section">
+  <div class="container">
+    <div class="about-us-wrapper d-flex justify-content-md-end">
+      <div class="about-us-block">
+        {% if content.field_about_sub_title|render is not empty %}
+          <h6>{{ content.field_about_sub_title|raw }}</h6>
+        {% endif %}
+
+        {% if content.field_about_title|render is not empty %}
+          <h2>{{ content.field_about_title|raw }}</h2>
+        {% endif %}
+        
+        {% if content.field_about_desc|render is not empty %}
+          {{ content.field_about_desc|raw }}
+        {% endif %}
+        
+        <div class="primary-btn">
+          {% if content.field_about_button|render is not empty %}
+            {{ content.field_about_button|raw }}
+          {% endif %}
+        </div>
+      </div>   
+    </div>
+  </div>
+</div>

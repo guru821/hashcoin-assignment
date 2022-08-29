@@ -43,21 +43,20 @@
  */
 #}
 <div class="layout-container">
+  <header role="banner">
+    <div class="top-header">
+      <div class="container">
+        {{ page.header }}
+      </div>
+    </div>
+    <nav class="primary-navigation">
+      <div class="container">
+        {{ page.navigation }}
+      </div>
+    </nav>
+  </header>
 
-	<header role="banner">
-		<div class="top-header">
-			<div class="container">
-				{{ page.header }}
-			</div>
-		</div>
-		<nav class="primary-navigation">
-			<div class="container">
-				{{ page.navigation }}
-			</div>
-		</nav>
-	</header>
-
-	{# <div class="slick-slider">
+  {# <div class="slick-slider">
     <div>your content</div>
     <div>your content</div>
     <div>your content
@@ -66,32 +65,20 @@
 		</div>
   </div> #}
 
-	<section class="hero-slider-section" role="hero-slider">
-		{{ page.hero_slider }}
-	</section>
+  <section class="hero-slider-section" role="hero-slider">
+    {{ page.hero_slider }}
+  </section>
 
-	<main role="main">
-		<a id="main-content" tabindex="-1"></a>
-		{# link is in html.html.twig #}
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    {# link is in html.html.twig #}
 
-		<div class="layout-content">
-			{{ page.content }}
-		</div>
-		{# /.layout-content #}
+    <div class="layout-content">
+      {{ page.content }}
+    </div>
+    {# /.layout-content #}
+  </main>
 
-	</main>
-
-	{% if page.footer %}
-		<footer role="contentinfo">
-			{{ page.footer }}
-		</footer>
-	{% endif %}
-
-	{% if page.footer %}
-		<section class="copyright-section" role="copyright">
-			{{ page.copyright }}
-		</section>
-	{% endif %}
-
+  {% include directory ~ '/partial/footer.html.twig' %}
 </div>
 {# /.layout-container #}

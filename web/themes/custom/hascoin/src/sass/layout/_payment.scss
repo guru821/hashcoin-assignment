@@ -1,0 +1,54 @@
+.block-views-blockpayment-order-block-1 {
+  background: $bg-grey;
+  padding: $f118 0;
+  @media (max-width: map-get($breakpoints, sm) - 1) {
+    padding: $f50 0;
+  }
+  .view-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: map-get($breakpoints, xs) - 1) {
+      display: block;
+    }
+    @media (max-width: map-get($breakpoints, sm) - 1) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .payment-block {
+    padding: 0 30px;
+    @media (max-width: map-get($breakpoints, sm) - 1) {
+      padding-bottom: $f30;
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+    .fontawesome-icon {
+      display: inline-block;
+      border: 1px solid darkgrey;
+      border-radius: 50%;
+      border-style: dashed;
+      width: 150px;
+      height: 150px;
+      position: relative;
+    }
+    svg {
+      font-size: 30px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .fa-user {
+      color: $red;
+    }
+    .fa-money-bill-wave {
+      color: lightcoral;
+    }
+    .fa-paper-plane {
+      color: $yellow;
+    }
+    h4 {
+      padding: $f26 0;
+    }
+  }
+}

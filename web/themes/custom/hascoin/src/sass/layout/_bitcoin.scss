@@ -1,0 +1,25 @@
+.bitcoin-block {
+  position: relative;
+  figure {
+    margin: 0;
+  }
+  .bitcoin-info {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 70%;
+    top: 50%;
+    p {
+      padding: $f50 0 $f66 0;
+    }
+    a {
+      border: 1px solid $red;
+      background: $red;
+      color: $white;
+      border-radius: 30px;
+      text-transform: uppercase;
+      font-size: 14px;
+      text-decoration: none;
+      padding: 16px 60px;
+    }
+  }
+}

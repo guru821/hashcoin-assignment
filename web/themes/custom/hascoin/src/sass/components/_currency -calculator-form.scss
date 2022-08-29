@@ -1,0 +1,52 @@
+.currency-calculator-form {
+  @include calculator();
+  .form-no-label {
+    margin: 0;
+  }
+  .sub-title {
+    color: $red;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+  p {
+    color: $white;
+    padding: $f36 0;
+  }
+  .webform-select-other {
+    margin: 0;
+    height: max-content;
+  }
+  .form-input-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    input {
+      margin: 0;
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+    .form-number {
+      width: 100%;
+      padding: 10px 30px;
+      border-radius: 30px;
+      outline: none;
+      box-shadow: none;
+      background-position: right 1.2rem center;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
+      }
+    }
+    .form-select {
+      @extend .form-number;
+    }
+  }
+  .buy-now-button {
+    margin-top: 36px;
+  }
+}

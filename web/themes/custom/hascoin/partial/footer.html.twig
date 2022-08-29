@@ -1,0 +1,26 @@
+<footer class="footer">
+  <section class="footer-section">
+    <div class="container">
+      <div class="col-md-12 d-flex justify-content-center footer-logo pb-5">
+        {{ drupal_entity('block', 'footerlogo') }}
+      </div>
+      <div class="row">
+        <div class="col-md-4 footer-block recent-blog text-white text-center pb-5 pb-md-0">
+          {{ drupal_entity('block', 'views_block__news_events_block_2') }}
+        </div>
+        <div class="col-md-4 footer-block coinster-block text-white text-center pb-5 pb-md-0">
+          {{ drupal_entity('block', 'coinster') }}
+        </div>
+        <div class="col-md-4 footer-block newsletter-block text-white text-center pb-5 pb-md-0">
+          {{ drupal_entity('block', 'webform_3') }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="copyrights-section text-center text-uppercase">
+    <div class="container">
+      {{ drupal_entity('block', 'copyright') }}
+    </div>
+  </section>
+</footer>
+<a href="#" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>

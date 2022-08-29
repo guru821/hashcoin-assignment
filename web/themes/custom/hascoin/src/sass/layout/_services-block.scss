@@ -1,0 +1,49 @@
+.block-views-blockservice-block-view-block-1 {
+  @include advantages();
+  .view-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .service-block {
+      margin-bottom: 40px;
+      width: 40%;
+      @media (max-width: map-get($breakpoints, md) - 1) {
+        width: 100%;
+      }
+      &:nth-of-type(even) {
+        text-align: -webkit-right;
+      }
+      &:nth-last-of-type(4n + 1) {
+        margin-right: 4rem;
+        @media (max-width: map-get($breakpoints, md) - 1) {
+          margin-right: 0;
+        }
+      }
+      &:nth-last-of-type(4n + 2) {
+        margin-left: 4rem;
+        @media (max-width: map-get($breakpoints, md) - 1) {
+          margin-left: 0;
+        }
+      }
+    }
+    .service-details {
+      width: 60%;
+      text-align: center;
+      @media (max-width: map-get($breakpoints, md) - 1) {
+        width: 100%;
+      }
+      img {
+        margin: auto;
+      }
+      h4 {
+        margin: 0;
+        padding: 20px 0;
+        text-transform: capitalize;
+      }
+      p {
+        margin: 0;
+        line-height: 36px;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.about-us-section {
+  @include about-bg;
+  .about-us-block {
+    width: 40%;
+    @media (max-width: map-get($breakpoints, sm) - 1) {
+      width: 100%;
+    }
+    p {
+      padding: 2.25rem 0;
+    }
+  }
+}

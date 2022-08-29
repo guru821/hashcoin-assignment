@@ -1,15 +1,17 @@
 .primary-navigation {
-  padding-top: 30px;
+  padding: $f30 0;
   .menu {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0 40px;
+    gap: 0 $f40;
     a {
       text-transform: uppercase;
       text-decoration: none;
-      color: $black;
+      color: $black-two;
+      font-size: $f18;
+      font-family: $pSemibold;
     }
     .is-active {
       color: $red;

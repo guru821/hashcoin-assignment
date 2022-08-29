@@ -1,0 +1,58 @@
+h1 {
+  font-size: $f74;
+  font-family: $tMedium;
+}
+
+h2 {
+  font-size: $f44;
+  font-family: $tMedium;
+}
+
+h3 {
+  font-size: $f18;
+  font-family: $tBold;
+}
+
+h4 {
+  font-size: $f38;
+  font-size: $tLight;
+}
+
+h5 {
+  font-size: $f12;
+  font-family: $iLight;
+}
+
+//how to use h7 <h7 role="heading" aria-level=7">
+h7 {
+  font-size: $f18;
+  font-family: $iBold;
+}
+
+h8 {
+  font-size: $f17;
+  font-family: $tMedium;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h7,
+h8 {
+  letter-spacing: 0;
+}
+
+p {
+  font-family: $iRegular;
+  &.btext {
+    font-size: $f18;
+  }
+  &.mtext {
+    font-size: $f16;
+  }
+  &.stext {
+    font-size: $f14;
+  }
+}

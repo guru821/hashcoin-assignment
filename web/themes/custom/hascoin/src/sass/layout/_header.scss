@@ -8,7 +8,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: map-get($breakpoints, md) - 1) {
+      justify-content: center;
+    }
     #block-socialmediaicons {
+      margin-top: $f16;
       .field__item {
         display: flex;
         flex-wrap: wrap;
@@ -24,7 +28,7 @@ header {
           display: grid;
           place-items: center;
           a {
-            font-size: 14px;
+            font-size: $f16;
           }
           .fa-facebook-f {
             color: #4267b2;
@@ -45,8 +49,15 @@ header {
       }
     }
 
+    .block-system-branding-block {
+      @media (max-width: map-get($breakpoints, md) - 1) {
+        padding: $f30 0;
+      }
+    }
+
     .search-block-form {
       position: relative;
+      margin-top: $f16;
       .form-search {
         border-radius: 30px;
         padding: 4px 10px;
@@ -56,15 +67,17 @@ header {
           box-shadow: none;
         }
       }
-      .header-serach-form {
+      .form-actions {
         position: absolute;
-        right: 6px;
+        right: 8px;
         top: 4px;
-        border: none;
-        background: 0 0;
-        i {
-          font-size: 14px;
+        .search-button {
+          font-family: FontAwesome;
           color: $red;
+          display: inline;
+          font-size: 16px;
+          border: none;
+          background: none;
           transform: rotate(90deg);
         }
       }

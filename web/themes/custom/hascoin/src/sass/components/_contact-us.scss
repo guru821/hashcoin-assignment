@@ -1,0 +1,43 @@
+.contact-us-form {
+  @include contact-us();
+  h2 {
+    padding-bottom: 60px;
+    padding-top: 4px;
+  }
+  .form-no-label {
+    margin: 0;
+    input {
+      margin: 0;
+      padding: 12px 30px;
+      border: 1px solid $white;
+      border-radius: 30px;
+      background: $white;
+      outline: none;
+      box-shadow: none;
+      background-position: right 1.2rem center;
+      font-size: 1rem;
+      text-align: center;
+      width: 100%;
+      @media (max-width: map-get($breakpoints, md) - 1) {
+        margin-bottom: 27px;
+      }
+    }
+  }
+  .massage {
+    margin-top: 27px;
+    margin-bottom: 54px;
+    @media (max-width: map-get($breakpoints, md) - 1) {
+      margin-top: 0;
+      margin-bottom: 27px;
+    }
+    .form-textarea {
+      @extend input;
+      height: 205px;
+    }
+  }
+  .btn {
+    padding: 0;
+    width: 280px;
+    margin: 0 auto;
+  }
+}

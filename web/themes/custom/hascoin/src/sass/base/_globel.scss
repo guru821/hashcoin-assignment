@@ -1,0 +1,80 @@
+h2 {
+  text-transform: capitalize;
+}
+
+.view-id-frontpage {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+main {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  figure {
+    margin: 0 !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $tMedium;
+  }
+
+  h2 {
+    padding: 0.5rem 0 0 0;
+    font-size: $f60;
+    line-height: $f48;
+    @media (max-width: map-get($breakpoints, xs) - 1) {
+      font-size: $f24;
+      line-height: $f24;
+    }
+  }
+
+  h4 {
+    font-size: $f28;
+    @media (max-width: map-get($breakpoints, xs) - 1) {
+      font-size: $f20;
+    }
+  }
+
+  h6 {
+    color: $red;
+    font-size: $f22;
+    text-transform: uppercase;
+    @media (max-width: map-get($breakpoints, xs) - 1) {
+      font-size: $f16;
+    }
+  }
+
+  p {
+    color: $text-color;
+    font-size: $f16;
+    font-family: $iRegular;
+    line-height: $f32;
+    @media (max-width: map-get($breakpoints, xs) - 1) {
+      font-size: $f14;
+    }
+  }
+
+  input,
+  .form-select {
+    font-size: $f18;
+    font-family: $tRegular;
+    @media (max-width: map-get($breakpoints, md) - 1) {
+      font-size: $f10;
+    }
+  }
+}

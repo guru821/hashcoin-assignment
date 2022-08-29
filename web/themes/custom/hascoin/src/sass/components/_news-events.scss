@@ -1,0 +1,144 @@
+.news-event-secton {
+  padding: 118px 0;
+  h2 {
+    padding-bottom: $f30;
+  }
+  .slick-prev {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      right: 0;
+      height: 14px;
+      border-right: 2px solid red;
+    }
+  }
+  .slick-disabled {
+    opacity: 0.3;
+  }
+  .slick-arrow {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-transform: uppercase;
+  }
+  .slick-slider {
+    padding: $f58 0;
+    .author {
+      border-left: 1px solid $gery;
+      border-right: 1px solid $gery;
+      @media (max-width: map-get($breakpoints, sm) - 1) {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid $gery;
+        border-bottom: 1px solid $gery;
+      }
+    }
+    .slick-prev {
+      width: 50%;
+      left: 25%;
+      text-align: right;
+      padding-right: 2.5rem;
+    }
+    .slick-next {
+      width: 50%;
+      left: inherit;
+      right: -25%;
+      text-align: left;
+      padding-left: 2.5rem;
+    }
+  }
+  .slick-list {
+    margin: 0 -15px;
+    .slick-slide {
+      margin: 0 15px;
+    }
+  }
+  .card {
+    &:nth-of-type(3n + 2) {
+      .card-header {
+        .fontawesome-icons {
+          border: 1px solid $orange;
+          background: $orange;
+        }
+      }
+      .card-footer {
+        .tag {
+          p {
+            color: $orange;
+          }
+        }
+      }
+    }
+    &:nth-of-type(3n + 3) {
+      .card-header {
+        .fontawesome-icons {
+          border: 1px solid $yellow;
+          background: $yellow;
+        }
+      }
+      .card-footer {
+        .tag {
+          p {
+            color: $yellow;
+          }
+        }
+      }
+    }
+    .card-header {
+      position: relative;
+      .fontawesome-icons {
+        width: 56px;
+        height: 56px;
+        border: 1px solid $red;
+        background: $red;
+        color: $white;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -26px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-family: "Titillium Web SemiBold";
+        font-size: $f16;
+        .fontawesome-icon {
+          height: 100%;
+          width: 100%;
+          display: grid;
+          place-items: center;
+        }
+      }
+    }
+
+    .card-title {
+      padding-bottom: $f20;
+    }
+
+    .card-footer {
+      p {
+        font-family: $pSemibold;
+        color: $black;
+      }
+      .tag {
+        p {
+          font-family: $pSemibold;
+          color: $red;
+        }
+      }
+      .author p {
+        line-height: 20px;
+      }
+      span {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4rem;
+        font-weight: 700;
+        opacity: 0.04;
+      }
+    }
+  }
+}

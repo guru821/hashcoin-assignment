@@ -1,0 +1,10 @@
+<?php
+/**
+ * Implements hook_form_alter().
+ */
+function hashcoin_form_search_block_form_alter(&$form, &$form_state) {
+  $form['keys']['#attributes']['placeholder'][] = t('Keywords');
+  $form['actions']['submit']['#value'] = html_entity_decode('&#xf002;');
+  $form['actions']['submit']['#attributes']['class'][] = 'search-button';
+}
+?>
