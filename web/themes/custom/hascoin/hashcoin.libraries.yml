@@ -3,6 +3,7 @@ global-styling:
   css:
     theme:
       assets/css/style.css: {}
+      assets/css/flexslider.css: {}
       assets/css/slick.css: {}
       assets/css/slick-theme.css: {}
       https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css:
@@ -12,6 +13,7 @@ global-scripts:
   version: VERSION
   js:
     assets/js/bundle.js: {}
+    assets/js/jquery.flexslider-min.js: {}
     assets/js/slick.min.js: {}
   dependencies:
     - core/jquery
