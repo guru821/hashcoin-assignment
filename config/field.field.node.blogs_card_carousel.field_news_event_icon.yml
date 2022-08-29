@@ -1,0 +1,21 @@
+uuid: 6f9e3d6c-1c1e-43a1-8b36-b4eb3eaf6a91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_event_icon
+    - node.type.blogs_card_carousel
+  module:
+    - fontawesome
+id: node.blogs_card_carousel.field_news_event_icon
+field_name: field_news_event_icon
+entity_type: node
+bundle: blogs_card_carousel
+label: 'news event icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

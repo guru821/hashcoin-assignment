@@ -1,0 +1,19 @@
+uuid: f27a8995-16ef-467a-b635-4011e1d11b03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sub_heading
+    - node.type.bitcoin
+id: node.bitcoin.field_sub_heading
+field_name: field_sub_heading
+entity_type: node
+bundle: bitcoin
+label: 'Sub Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

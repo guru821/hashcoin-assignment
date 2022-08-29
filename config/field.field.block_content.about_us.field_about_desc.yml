@@ -1,0 +1,23 @@
+uuid: 77041d91-95b7-40f6-a1dc-56985cf6a7e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_about_desc
+  module:
+    - text
+id: block_content.about_us.field_about_desc
+field_name: field_about_desc
+entity_type: block_content
+bundle: about_us
+label: 'About Desc'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

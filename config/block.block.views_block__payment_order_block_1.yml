@@ -1,0 +1,24 @@
+uuid: 45c819cd-41ef-4aad-96ed-e1f067a25f2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.payment_order
+  module:
+    - views
+  theme:
+    - hashcoin
+id: views_block__payment_order_block_1
+theme: hashcoin
+region: content
+weight: -12
+provider: null
+plugin: 'views_block:payment_order-block_1'
+settings:
+  id: 'views_block:payment_order-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,19 @@
+uuid: d8185ed3-54cb-4c2a-a646-982e0e29b5db
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_news_event_desc
+field_name: field_news_event_desc
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 6baa2e0e-27c2-4dee-a013-c0506da46f01
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_2x
+label: 'Mobile 2X'
+effects:
+  8909daa8-a52a-421e-a064-187bd43cbe8f:
+    uuid: 8909daa8-a52a-421e-a064-187bd43cbe8f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 640
+      height: 320
+      anchor: center-center
+  f9c17e08-3725-4af3-875b-77f747601f1b:
+    uuid: f9c17e08-3725-4af3-875b-77f747601f1b
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 400
+      height: 200
+      anchor: center-center

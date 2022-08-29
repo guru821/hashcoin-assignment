@@ -1,0 +1,23 @@
+uuid: bd315448-d44b-4e35-bcc1-05e271ff63cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.testimonial_carousel
+  module:
+    - text
+id: node.testimonial_carousel.body
+field_name: body
+entity_type: node
+bundle: testimonial_carousel
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

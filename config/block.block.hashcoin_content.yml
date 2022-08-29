@@ -1,0 +1,22 @@
+uuid: ea8cbaaa-b118-4a4c-ada7-92e464713651
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hashcoin
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: hashcoin_content
+theme: hashcoin
+region: content
+weight: -14
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,34 @@
+uuid: 8c9f8eec-9e55-42e7-9fd8-2ecc64c25559
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hero_slider.body
+    - field.field.node.hero_slider.field_slider_button
+    - field.field.node.hero_slider.field_slider_image
+    - node.type.hero_slider
+  module:
+    - text
+    - user
+id: node.hero_slider.teaser
+targetEntityType: node
+bundle: hero_slider
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_slider_button: true
+  field_slider_image: true

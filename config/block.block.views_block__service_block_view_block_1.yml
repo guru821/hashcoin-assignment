@@ -1,0 +1,24 @@
+uuid: 5360c8a8-33a4-4614-ba73-6f0fe8bdf2c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.service_block_view
+  module:
+    - views
+  theme:
+    - hashcoin
+id: views_block__service_block_view_block_1
+theme: hashcoin
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:service_block_view-block_1'
+settings:
+  id: 'views_block:service_block_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: e5ab9ffb-5bf4-41f6-ba10-c9402d931fb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_events
+  module:
+    - views
+  theme:
+    - hashcoin
+id: views_block__news_events_block_2
+theme: hashcoin
+region: footer
+weight: -15
+provider: null
+plugin: 'views_block:news_events-block_2'
+settings:
+  id: 'views_block:news_events-block_2'
+  label: 'Recent Blog'
+  label_display: visible
+  provider: views
+  views_label: 'Recent Blog'
+  items_per_page: none
+visibility: {  }

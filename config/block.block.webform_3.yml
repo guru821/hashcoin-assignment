@@ -1,0 +1,25 @@
+uuid: d52a78fa-0701-42c9-923f-d2535e43d5b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.newsletter
+  module:
+    - webform
+  theme:
+    - hashcoin
+id: webform_3
+theme: hashcoin
+region: footer
+weight: -13
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Newsletter
+  label_display: visible
+  provider: webform
+  webform_id: newsletter
+  default_data: ''
+  redirect: false
+visibility: {  }

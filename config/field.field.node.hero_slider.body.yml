@@ -1,0 +1,23 @@
+uuid: 69de14aa-a4b2-4984-9d05-85664bdb399f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hero_slider
+  module:
+    - text
+id: node.hero_slider.body
+field_name: body
+entity_type: node
+bundle: hero_slider
+label: 'Banner Body'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

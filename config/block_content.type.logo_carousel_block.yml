@@ -1,0 +1,8 @@
+uuid: deb05ea4-ea97-443f-a286-658a9a6dc67f
+langcode: en
+status: true
+dependencies: {  }
+id: logo_carousel_block
+label: 'Logo Carousel Block'
+revision: 0
+description: ''

@@ -1,0 +1,34 @@
+uuid: a9501bbe-4d8f-4193-a472-d5f0d80f23b0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f98f96b4-fac2-4e9a-acb5-f638499896ef'
+  module:
+    - block_content
+    - user
+  theme:
+    - hashcoin
+id: socialmediaicons
+theme: hashcoin
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:f98f96b4-fac2-4e9a-acb5-f638499896ef'
+settings:
+  id: 'block_content:f98f96b4-fac2-4e9a-acb5-f638499896ef'
+  label: 'Social media icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      administrator: administrator

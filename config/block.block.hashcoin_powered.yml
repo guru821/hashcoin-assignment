@@ -1,0 +1,22 @@
+uuid: da65e04d-5d68-4ee9-8c3f-ce2fb91c5052
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - hashcoin
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: hashcoin_powered
+theme: hashcoin
+region: header
+weight: 5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

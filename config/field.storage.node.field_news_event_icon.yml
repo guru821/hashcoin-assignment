@@ -1,0 +1,19 @@
+uuid: 606013b1-6a6a-465d-a6a7-d0149ec8ff00
+langcode: en
+status: true
+dependencies:
+  module:
+    - fontawesome
+    - node
+id: node.field_news_event_icon
+field_name: field_news_event_icon
+entity_type: node
+type: fontawesome_icon
+settings: {  }
+module: fontawesome
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

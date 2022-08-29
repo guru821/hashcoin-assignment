@@ -1,0 +1,22 @@
+uuid: 101a6172-8c93-493f-9650-82318f877190
+langcode: en
+status: false
+dependencies:
+  theme:
+    - hashcoin
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: hashcoin_primary_local_tasks
+theme: hashcoin
+region: header
+weight: -1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

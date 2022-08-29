@@ -1,0 +1,19 @@
+uuid: 3418cb7f-a017-4f73-aedc-0bc6560571a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_heading
+    - node.type.bitcoin
+id: node.bitcoin.field_heading
+field_name: field_heading
+entity_type: node
+bundle: bitcoin
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

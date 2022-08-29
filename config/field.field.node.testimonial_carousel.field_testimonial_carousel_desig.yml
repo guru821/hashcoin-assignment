@@ -1,0 +1,21 @@
+uuid: 8af87f7d-9345-4931-807a-afe83b67efff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimonial_carousel_desig
+    - node.type.testimonial_carousel
+  module:
+    - text
+id: node.testimonial_carousel.field_testimonial_carousel_desig
+field_name: field_testimonial_carousel_desig
+entity_type: node
+bundle: testimonial_carousel
+label: 'Testimonial Carousel Designation'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,21 @@
+uuid: b3b8509b-7fdb-404d-8448-1c812a552f56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_event_date
+    - node.type.blogs_card_carousel
+  module:
+    - datetime
+id: node.blogs_card_carousel.field_news_event_date
+field_name: field_news_event_date
+entity_type: node
+bundle: blogs_card_carousel
+label: 'news event date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

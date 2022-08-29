@@ -1,0 +1,23 @@
+uuid: 7a58394e-a9b6-420e-a5a4-cfa1cf5b54fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.bitcoin
+  module:
+    - text
+id: node.bitcoin.body
+field_name: body
+entity_type: node
+bundle: bitcoin
+label: 'Bitcoin Body'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

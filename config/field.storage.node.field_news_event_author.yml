@@ -1,0 +1,20 @@
+uuid: 5aaab168-9b17-43c4-b8e6-0d37e392554b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_news_event_author
+field_name: field_news_event_author
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

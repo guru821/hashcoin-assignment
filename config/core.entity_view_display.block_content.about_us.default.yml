@@ -1,0 +1,52 @@
+uuid: 12fbdcbe-940e-4078-a174-d7b7e8073674
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.field.block_content.about_us.field_about_button
+    - field.field.block_content.about_us.field_about_desc
+    - field.field.block_content.about_us.field_about_sub_title
+    - field.field.block_content.about_us.field_about_title
+  module:
+    - link
+    - text
+id: block_content.about_us.default
+targetEntityType: block_content
+bundle: about_us
+mode: default
+content:
+  field_about_button:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_about_desc:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_about_sub_title:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_about_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 4f0ca12d-e454-475f-8389-692f9e2c954a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_about_title
+  module:
+    - text
+id: block_content.about_us.field_about_title
+field_name: field_about_title
+entity_type: block_content
+bundle: about_us
+label: 'About Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

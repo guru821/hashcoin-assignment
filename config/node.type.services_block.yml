@@ -1,0 +1,17 @@
+uuid: 06bf75dc-66d0-4c0c-a0a5-cb79cd1904a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Services Block'
+type: services_block
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

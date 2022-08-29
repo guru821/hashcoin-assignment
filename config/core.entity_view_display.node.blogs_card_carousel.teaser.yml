@@ -1,0 +1,32 @@
+uuid: 29b3e4de-83eb-4c66-9be1-98364e827318
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.blogs_card_carousel.field_news_event_author
+    - field.field.node.blogs_card_carousel.field_news_event_date
+    - field.field.node.blogs_card_carousel.field_news_event_desc
+    - field.field.node.blogs_card_carousel.field_news_event_icon
+    - field.field.node.blogs_card_carousel.field_news_event_image
+    - field.field.node.blogs_card_carousel.field_news_events_tag
+    - node.type.blogs_card_carousel
+  module:
+    - user
+id: node.blogs_card_carousel.teaser
+targetEntityType: node
+bundle: blogs_card_carousel
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_news_event_author: true
+  field_news_event_date: true
+  field_news_event_desc: true
+  field_news_event_icon: true
+  field_news_event_image: true
+  field_news_events_tag: true

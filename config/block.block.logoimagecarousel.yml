@@ -1,0 +1,25 @@
+uuid: 5699dc16-5f59-4ac0-a88b-b460ec6f412a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo_carousel_block:27e30ba2-92f0-4aa9-b4e8-4c38220bee0c'
+  module:
+    - block_content
+  theme:
+    - hashcoin
+id: logoimagecarousel
+theme: hashcoin
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:27e30ba2-92f0-4aa9-b4e8-4c38220bee0c'
+settings:
+  id: 'block_content:27e30ba2-92f0-4aa9-b4e8-4c38220bee0c'
+  label: 'Logo Image Carousel'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

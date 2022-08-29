@@ -1,0 +1,26 @@
+uuid: d4fca663-e819-480a-a4b3-204f10d89c8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_carousel.field_logo_carousel_image
+    - paragraphs.paragraphs_type.logo_carousel
+  module:
+    - image
+id: paragraph.logo_carousel.default
+targetEntityType: paragraph
+bundle: logo_carousel
+mode: default
+content:
+  field_logo_carousel_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

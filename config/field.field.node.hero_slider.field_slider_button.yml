@@ -1,0 +1,23 @@
+uuid: b3003db0-8aec-46f9-8abc-12f1c7bb99b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slider_button
+    - node.type.hero_slider
+  module:
+    - link
+id: node.hero_slider.field_slider_button
+field_name: field_slider_button
+entity_type: node
+bundle: hero_slider
+label: 'Slider Button'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

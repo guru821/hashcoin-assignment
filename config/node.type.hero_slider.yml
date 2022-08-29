@@ -1,0 +1,17 @@
+uuid: 2c46e8f4-c99e-432e-87de-564919814b4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Hero Slider'
+type: hero_slider
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

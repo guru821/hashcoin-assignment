@@ -1,0 +1,38 @@
+uuid: 69777e38-b85c-465e-8d95-3208251d8a2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bitcoin.body
+    - field.field.node.bitcoin.field_bitcoin_background_image
+    - field.field.node.bitcoin.field_bitcoin_button
+    - field.field.node.bitcoin.field_heading
+    - field.field.node.bitcoin.field_sub_heading
+    - node.type.bitcoin
+  module:
+    - text
+    - user
+id: node.bitcoin.teaser
+targetEntityType: node
+bundle: bitcoin
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_bitcoin_background_image: true
+  field_bitcoin_button: true
+  field_heading: true
+  field_sub_heading: true

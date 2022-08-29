@@ -1,0 +1,39 @@
+uuid: c7572362-18dd-406f-910c-52281c6e0c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.mobile_1x
+    - image.style.mobile_2x
+    - image.style.tablet_1x
+  theme:
+    - hashcoin
+id: about_bg_image
+label: 'About Bg Image'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: tablet_1x
+    breakpoint_id: hashcoin.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: tablet_1x
+    breakpoint_id: hashcoin.medium
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: mobile_1x
+    breakpoint_id: hashcoin.small
+    multiplier: 1x
+  -
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - mobile_1x
+        - mobile_2x
+    breakpoint_id: hashcoin.small
+    multiplier: 2x
+breakpoint_group: hashcoin
+fallback_image_style: mobile_1x

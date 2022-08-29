@@ -1,0 +1,21 @@
+uuid: dd8bf842-7997-49f2-8129-eb5cf4c4252b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_event_author
+    - node.type.blogs_card_carousel
+  module:
+    - text
+id: node.blogs_card_carousel.field_news_event_author
+field_name: field_news_event_author
+entity_type: node
+bundle: blogs_card_carousel
+label: 'news event author'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

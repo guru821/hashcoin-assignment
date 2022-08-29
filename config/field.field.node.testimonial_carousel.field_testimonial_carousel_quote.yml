@@ -1,0 +1,21 @@
+uuid: c1fcb4e0-bb2d-43b3-9c74-e3a67f5ab6f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimonial_carousel_quote
+    - node.type.testimonial_carousel
+  module:
+    - fontawesome
+id: node.testimonial_carousel.field_testimonial_carousel_quote
+field_name: field_testimonial_carousel_quote
+entity_type: node
+bundle: testimonial_carousel
+label: 'Testimonial Carousel Quote Icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

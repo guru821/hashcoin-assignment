@@ -1,0 +1,8 @@
+uuid: 01c4051a-e0ce-438f-95c6-62656c0daa61
+langcode: en
+status: true
+dependencies: {  }
+id: coinster
+label: Coinster
+revision: 0
+description: ''

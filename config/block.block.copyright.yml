@@ -1,0 +1,25 @@
+uuid: 8d8eca2a-c3d0-4aef-8c97-0f4b4e1211b6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:33898746-754c-42f2-baac-14e4476e30ee'
+  module:
+    - block_content
+  theme:
+    - hashcoin
+id: copyright
+theme: hashcoin
+region: footer
+weight: -12
+provider: null
+plugin: 'block_content:33898746-754c-42f2-baac-14e4476e30ee'
+settings:
+  id: 'block_content:33898746-754c-42f2-baac-14e4476e30ee'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

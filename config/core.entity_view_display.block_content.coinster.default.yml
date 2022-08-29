@@ -1,0 +1,46 @@
+uuid: 063f046b-8941-401d-baa1-95ef956d13e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.coinster
+    - field.field.block_content.coinster.body
+    - field.field.block_content.coinster.field_address
+    - field.field.block_content.coinster.field_coinster_social_icon
+    - field.field.block_content.coinster.field_email
+  module:
+    - text
+id: block_content.coinster.default
+targetEntityType: block_content
+bundle: coinster
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_address:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_coinster_social_icon:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_email:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

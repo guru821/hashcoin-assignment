@@ -1,0 +1,25 @@
+uuid: 86ae486c-fb5f-4f66-970c-e756cf075b3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - webform
+  theme:
+    - hashcoin
+id: webform_2
+theme: hashcoin
+region: content
+weight: -7
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  label_display: '0'
+  provider: webform
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility: {  }
