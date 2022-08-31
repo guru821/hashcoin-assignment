@@ -38,8 +38,7 @@ main {
     font-size: $f60;
     line-height: $f48;
     @media (max-width: map-get($breakpoints, xs) - 1) {
-      font-size: $f24;
-      line-height: $f24;
+      font-size: $f48;
     }
   }
 

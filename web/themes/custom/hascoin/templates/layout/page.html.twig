@@ -42,43 +42,28 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
-  <header role="banner">
-    <div class="top-header">
-      <div class="container">
-        {{ page.header }}
-      </div>
+<header role="banner">
+  <div class="top-header">
+    <div class="container">
+      {{ page.header }}
     </div>
-    <nav class="primary-navigation">
-      <div class="container">
-        {{ page.navigation }}
-      </div>
-    </nav>
-  </header>
-
-  {# <div class="slick-slider">
-    <div>your content</div>
-    <div>your content</div>
-    <div>your content
-		<div class="b-example__text">{{ content.field_hero_slider_image	 }}</div>
-		<div class="b-example__text">{{ content.body	 }}</div>
-		</div>
-  </div> #}
-
-  <section class="hero-slider-section" role="hero-slider">
-    {{ page.hero_slider }}
-  </section>
-
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>
-    {# link is in html.html.twig #}
-
-    <div class="layout-content">
-      {{ page.content }}
+  </div>
+  <nav class="primary-navigation">
+    <div class="container">
+      {{ page.navigation }}
     </div>
-    {# /.layout-content #}
-  </main>
+  </nav>
+</header>
 
-  {% include directory ~ '/partial/footer.html.twig' %}
-</div>
-{# /.layout-container #}
+<section class="hero-slider-section" role="hero-slider">
+  {{ page.hero_slider }}
+</section>
+
+<main role="main">
+  <a id="main-content" tabindex="-1"></a>
+  {# link is in html.html.twig #}
+
+  {{ page.content }}
+</main>
+
+{% include directory ~ '/partial/footer.html.twig' %}
