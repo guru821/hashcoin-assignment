@@ -1,0 +1,26 @@
+uuid: 678c03f1-5bea-484e-a9a3-3dd5ec6ceadd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.assignment_seven.field_assignment_body
+    - field.field.node.assignment_seven.field_assignment_image
+    - field.field.node.assignment_seven.field_assignment_image_position
+    - node.type.assignment_seven
+  module:
+    - user
+id: node.assignment_seven.teaser
+targetEntityType: node
+bundle: assignment_seven
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_assignment_body: true
+  field_assignment_image: true
+  field_assignment_image_position: true

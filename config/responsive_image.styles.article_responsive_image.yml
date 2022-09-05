@@ -1,0 +1,40 @@
+uuid: 70f0f9e6-399c-4bd0-ad22-8e34bcf2371b
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.desktop_1200x800_landscape_
+    - image.style.medium_600x800_
+    - image.style.thumbnail
+  theme:
+    - hashcoin
+id: article_responsive_image
+label: 'Article Responsive Image'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: desktop_1200x800_landscape_
+    breakpoint_id: hashcoin.wide
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_600x800_
+    breakpoint_id: hashcoin.narrow
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_600x800_
+    breakpoint_id: hashcoin.narrow
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_600x800_
+    breakpoint_id: hashcoin.mobile
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium_600x800_
+    breakpoint_id: hashcoin.mobile
+    multiplier: 2x
+breakpoint_group: hashcoin
+fallback_image_style: thumbnail

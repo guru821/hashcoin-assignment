@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:logo_carousel_block:27e30ba2-92f0-4aa9-b4e8-4c38220bee0c'
   module:
     - block_content
+    - system
   theme:
     - hashcoin
 id: logoimagecarousel
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

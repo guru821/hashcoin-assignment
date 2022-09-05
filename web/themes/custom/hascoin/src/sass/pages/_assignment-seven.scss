@@ -1,0 +1,40 @@
+.assignment-wrapper {
+  padding: 50px 0;
+
+  // Select Top Radio Button
+  .top {
+    img {
+      width: 100%;
+    }
+    .page-child {
+      padding-bottom: 30px;
+    }
+  }
+
+  // Select Left Radio Button
+  .left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+  }
+
+  // Select Right Radio Button
+  .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    direction: rtl;
+    text-align: left;
+  }
+
+  h2 {
+    padding-bottom: 30px;
+  }
+
+  // Radio Button Display None om Front End
+  .field--name-field-assignment-image-position {
+    display: none;
+  }
+}

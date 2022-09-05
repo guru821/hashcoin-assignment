@@ -1,0 +1,21 @@
+uuid: 129efdc3-e746-481d-b8d4-57c4fbbaadc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_assignment_image_position
+    - node.type.assignment_seven
+  module:
+    - options
+id: node.assignment_seven.field_assignment_image_position
+field_name: field_assignment_image_position
+entity_type: node
+bundle: assignment_seven
+label: 'Assignment Image position'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

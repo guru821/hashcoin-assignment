@@ -1,26 +1,31 @@
-uuid: c21520c4-1722-4e37-b1a7-f051647b45b8
+uuid: 626ac040-1525-41a0-b973-5264b8d373a6
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.testimonial_carousel.body
-    - field.field.node.testimonial_carousel.field_testimonial_carousel_desig
-    - field.field.node.testimonial_carousel.field_testimonial_carousel_image
-    - field.field.node.testimonial_carousel.field_testimonial_carousel_quote
-    - node.type.testimonial_carousel
+    - field.field.node.assignment_seven.field_assignment_body
+    - field.field.node.assignment_seven.field_assignment_image
+    - field.field.node.assignment_seven.field_assignment_image_position
+    - image.style.thumbnail
+    - node.type.assignment_seven
   module:
-    - fontawesome
     - image
     - path
     - text
-id: node.testimonial_carousel.default
+id: node.assignment_seven.default
 targetEntityType: node
-bundle: testimonial_carousel
+bundle: assignment_seven
 mode: default
 content:
-  body:
+  created:
+    type: datetime_timestamp
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_assignment_body:
     type: text_textarea_with_summary
-    weight: 11
+    weight: 8
     region: content
     settings:
       rows: 9
@@ -28,31 +33,17 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  created:
-    type: datetime_timestamp
-    weight: 2
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_testimonial_carousel_desig:
-    type: text_textfield
-    weight: 9
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_testimonial_carousel_image:
+  field_assignment_image:
     type: image_image
     weight: 7
     region: content
     settings:
       progress_indicator: throbber
-      preview_image_style: ''
+      preview_image_style: thumbnail
     third_party_settings: {  }
-  field_testimonial_carousel_quote:
-    type: fontawesome_icon_widget
-    weight: 8
+  field_assignment_image_position:
+    type: options_buttons
+    weight: 9
     region: content
     settings: {  }
     third_party_settings: {  }

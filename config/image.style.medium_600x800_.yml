@@ -1,0 +1,15 @@
+uuid: 965f16b3-9e19-4ee8-b367-d5550b3eb032
+langcode: en
+status: true
+dependencies: {  }
+name: medium_600x800_
+label: Medium(600X800)
+effects:
+  d9cc7e87-f9f9-479b-9757-1300bffb5667:
+    uuid: d9cc7e87-f9f9-479b-9757-1300bffb5667
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 800
+      anchor: center-center

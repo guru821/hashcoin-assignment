@@ -6,10 +6,8 @@ dependencies:
     - field.field.node.hero_slider.body
     - field.field.node.hero_slider.field_slider_button
     - field.field.node.hero_slider.field_slider_image
-    - image.style.flexslider_full
     - node.type.hero_slider
   module:
-    - image
     - link
     - text
     - user
@@ -37,20 +35,10 @@ content:
     third_party_settings: {  }
     weight: 103
     region: content
-  field_slider_image:
-    type: image
-    label: hidden
-    settings:
-      image_link: ''
-      image_style: flexslider_full
-      image_loading:
-        attribute: lazy
-    third_party_settings: {  }
-    weight: 102
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_slider_image: true

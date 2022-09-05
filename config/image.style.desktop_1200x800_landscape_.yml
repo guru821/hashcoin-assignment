@@ -1,0 +1,15 @@
+uuid: f5826a09-273c-4c21-97ac-769dc2948311
+langcode: en
+status: true
+dependencies: {  }
+name: desktop_1200x800_landscape_
+label: 'Desktop 1200x800(Landscape)'
+effects:
+  a8c48e76-8cb5-4961-ab58-a74acff3b642:
+    uuid: a8c48e76-8cb5-4961-ab58-a74acff3b642
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 800
+      anchor: center-center

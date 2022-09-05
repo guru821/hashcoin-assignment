@@ -8,7 +8,6 @@ dependencies:
     - field.field.node.bitcoin.field_bitcoin_button
     - field.field.node.bitcoin.field_heading
     - field.field.node.bitcoin.field_sub_heading
-    - image.style.wide
     - node.type.bitcoin
   module:
     - image
@@ -42,7 +41,7 @@ content:
     region: content
     settings:
       progress_indicator: throbber
-      preview_image_style: wide
+      preview_image_style: ''
     third_party_settings: {  }
   field_bitcoin_button:
     type: link_default

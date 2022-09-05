@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:about_us:0c562c63-b690-4afc-b851-3f59f3963e0b'
   module:
     - block_content
+    - system
   theme:
     - hashcoin
 id: aboutus
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

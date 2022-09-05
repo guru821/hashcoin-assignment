@@ -5,6 +5,7 @@ dependencies:
   config:
     - webform.webform.currency_calculator
   module:
+    - system
     - user
     - webform
   theme:
@@ -32,3 +33,7 @@ visibility:
     roles:
       anonymous: anonymous
       administrator: administrator
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

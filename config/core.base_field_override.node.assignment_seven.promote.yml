@@ -1,0 +1,22 @@
+uuid: c9528740-4c2a-421d-8842-b08286f71238
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.assignment_seven
+id: node.assignment_seven.promote
+field_name: promote
+entity_type: node
+bundle: assignment_seven
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

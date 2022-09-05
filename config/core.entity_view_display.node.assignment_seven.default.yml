@@ -1,0 +1,50 @@
+uuid: 92fe95b6-2b06-42fa-b8d0-5e91353c48c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.assignment_seven.field_assignment_body
+    - field.field.node.assignment_seven.field_assignment_image
+    - field.field.node.assignment_seven.field_assignment_image_position
+    - node.type.assignment_seven
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.assignment_seven.default
+targetEntityType: node
+bundle: assignment_seven
+mode: default
+content:
+  field_assignment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_assignment_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_assignment_image_position:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

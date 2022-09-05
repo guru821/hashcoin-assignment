@@ -1,10 +1,11 @@
-uuid: e7998440-b3f2-4624-8120-d72f6d4f935f
+uuid: 41046203-b90d-4858-9502-1aa7893ed6a2
 langcode: en
 status: true
 dependencies:
   config:
     - views.view.hero_slider_
   module:
+    - system
     - views
   theme:
     - hashcoin
@@ -21,4 +22,8 @@ settings:
   provider: views
   views_label: ''
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '</front>'

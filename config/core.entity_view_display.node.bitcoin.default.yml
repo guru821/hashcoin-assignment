@@ -9,10 +9,8 @@ dependencies:
     - field.field.node.bitcoin.field_heading
     - field.field.node.bitcoin.field_sub_heading
     - node.type.bitcoin
-    - responsive_image.styles.about_bg_image
   module:
     - link
-    - responsive_image
     - text
     - user
 id: node.bitcoin.default
@@ -26,15 +24,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 3
-    region: content
-  field_bitcoin_background_image:
-    type: responsive_image
-    label: hidden
-    settings:
-      responsive_image_style: about_bg_image
-      image_link: ''
-    third_party_settings: {  }
-    weight: 5
     region: content
   field_bitcoin_button:
     type: link
@@ -68,4 +57,5 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  field_bitcoin_background_image: true
